@@ -1,4 +1,27 @@
-# MinesweeperApp
+# Angular Minesweeper
+
+A classic Minesweeper game built with Angular, featuring the nostalgic Windows 98 styling and gameplay.
+
+## 🎮 Play the Game
+
+**[Play Minesweeper Online](https://timothyoverton.github.io/minesweeper-ng)**
+
+## 🎯 Game Features
+
+- **20x10 game board** with 10 randomly placed mines
+- **Left-click** to reveal cells
+- **Right-click** to flag suspected mines
+- **Classic Windows 98 styling** with retro buttons and colors
+- **Win/lose detection** with visual feedback
+- **New Game button** to restart anytime
+- **Mine counter** showing remaining unflagged mines
+
+## 🛠️ Built With
+
+- Angular 20.1.1
+- TypeScript
+- CSS3 with classic Minesweeper styling
+- GitHub Pages for deployment
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.1.1.
 
