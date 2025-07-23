@@ -1,0 +1,20 @@
+<div class="game-container">
+  <div class="game-header">
+    <h1>Minesweeper</h1>
+    <div class="game-info">
+      <span class="status">{{ getGameStatusMessage() }}</span>
+      <button class="reset-btn" (click)="resetGame()">New Game</button>
+    </div>
+  </div>
+  
+  <div class="game-board">
+    <div class="board-row" *ngFor="let row of gameService.board; let i = index">
+      <app-game-cell 
+        *ngFor="let cell of row; let j = index"
+        [cell]="cell"
+        (cellClick)="onCellClick($event)"
+        (rightClick)="onRightClick($event)">
+      </app-game-cell>
+    </div>
+  </div>
+</div>

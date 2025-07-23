@@ -1,0 +1,6 @@
+<button 
+  [class]="getCellClass()" 
+  (click)="onCellClick()" 
+  (contextmenu)="onRightClick($event)">
+  {{ getCellDisplay() }}
+</button>
